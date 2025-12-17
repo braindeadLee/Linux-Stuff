@@ -45,6 +45,15 @@ make sure FUSE is installed
 Install AppImageLauncher if not present
 `paru appimagelauncher`
 
+Install snap shot support
+`sudo pacman -S cachyos-snapper-support`
+
+Performance Scheduler install
+- CachyOS Hello > enable scx service
+
+Rank mirrors
+`cachyos-rate-mirorrs`
+
 ## Gaming
 Install gaming packages
 `sudo pacman -S cachyos-gaming-meta`
@@ -52,7 +61,7 @@ Install gaming packages
 
 ### Lutris Gloobal config
 Runner Options tab, make sure settings match
-1. Wine vesrion = proton-cachyos
+1. Wine vesrion = proton-cachyos-slr
 2. Use System winetricks = Disabled
 3. Graphics - Enabled DXVK = Enabled
 
